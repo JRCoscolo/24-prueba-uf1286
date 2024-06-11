@@ -1,14 +1,15 @@
 function generarArrayBidimensional() {
   function generarArray() {
-    return [0, 1, 2];
+    let arr = Math.floor(Math.random() * 10 + 1)
+    return [arr, arr, arr];
   }
 
   var array = [];
-  for (var i = 0; i < 10; i++) {
+  for (var i = Math.floor(Math.random() * 6 + 4); i < 10; i++) {
     array.push(generarArray());
   }
   return array;
-}
+
 
 function mostrarArrayBidimensional(arrayBidimensional) {
   function mostrarArray(array) {
@@ -34,4 +35,5 @@ function mostrarArrayBidimensional(arrayBidimensional) {
 }
 
 mostrarArrayBidimensional(generarArrayBidimensional());
+}
 // git clonado y guardado
