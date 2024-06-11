@@ -1,7 +1,8 @@
 function generarArrayBidimensional() {
   function generarArray() {
 
-    return [Math.floor(Math.random() * 10 + 1), Math.floor(Math.random() * 10 + 1), Math.floor(Math.random() * 10 + 1)]; //debería meter 3 veces en el array la función random
+    return [Math.floor(Math.random() * 10 + 1), Math.floor(Math.random() * 10 + 1), Math.floor(Math.random() * 10 + 1)]; 
+    //debería meter 3 veces en el array la función random
   }
 
   if (i => 10) {
@@ -16,7 +17,7 @@ function generarArrayBidimensional() {
 
 
   }
-  //metemos un break al final porque si no la función no acaba nunca
+  
 
   return array;
 }
